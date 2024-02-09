@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Artistas</title>
+</head>
+<body>
+    <h1>Pesquisa de Artistas Participantes</h1>
+
+    <h2>Pesquisa Básica</h2>
+    <form action="pesquisa_basica.php" method="post">
+        <label for="codigo">Código do Participante:</label>
+        <input type="text" name="codigo" required>
+        <input type="submit" value="Pesquisar">
+    </form>
+
+    <h2>Pesquisa Avançada</h2>
+    <form action="pesquisa_avancada.php" method="post">
+        <label for="palco">Palco:</label>
+        <input type="text" name="palco">
+        <label for="entrevistas">Número mínimo de entrevistas:</label>
+        <input type="text" name="entrevistas">
+        <input type="submit" value="Pesquisar">
+    </form>
+</body>
+</html>

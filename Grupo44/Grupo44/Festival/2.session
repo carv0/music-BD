@@ -1,0 +1,30 @@
+window_sizes 1920 991 467 1447 827 110
+
+diagrams
+  active  classdiagram_ref 128130 // Festival
+    1652 765 100 A4 47 0
+end
+show_stereotypes
+selected 
+package_ref 129 // Festival
+open
+  class_ref 128130 // Festival
+  class_ref 128258 // Edicao
+  class_ref 128386 // Tecnico
+  class_ref 128514 // Espetador
+  class_ref 128642 // Palco
+  class_ref 128770 // Pagante
+  class_ref 128898 // Convidado
+  class_ref 129026 // Jornalista
+  class_ref 129154 // Participante
+  class_ref 129282 // Devolucao
+  class_ref 129410 // Reportagem
+  class_ref 129538 // Bilhete
+  class_ref 129666 // Entrevista
+  class_ref 129794 // Tema
+  class_ref 129922 // ArtistaIndividual
+  class_ref 130050 // Grupo
+  class_ref 130178 // Membro
+  class_ref 130306 // Ordem
+end
+end
